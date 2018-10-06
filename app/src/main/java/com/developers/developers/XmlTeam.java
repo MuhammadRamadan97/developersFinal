@@ -28,14 +28,12 @@ public class XmlTeam extends ListActivity {
     private String[] listview_names =  {"Slimane Salim","Ben Djamaa Ibrahim"
             ,"Haron Al-kahtani","Samah Ahmad Makki","Doaa Saleh",
             "Duaa Alqurashi",
-           "Mustafa HagMusa" };
+           "Mustafa HagMusa","Reham Mahmoud" };
     //emailes
     private String[] listview_emails = {"shara.admo@gmail.com",
             "ibrahimbendjamaa@gmail.com ",
             "harown12@gmail.com","samahmakki91@gmail.com","doaalgendy@gmail.com","Duaaalqurashig@gmail.com",
-
-
-            "abuelsafe@hotmail.com"};
+            "abuelsafe@hotmail.com","ph_a_r@yahoo.com"};
     //linkedin accounts
     private String[] listview_linkedin = {"https://www.linkedin.com/in/mdeveloppeur",
             "https://www.linkedin.com/in/ibrahim-bendjamaa-5a3930168/",
@@ -43,9 +41,9 @@ public class XmlTeam extends ListActivity {
 
             "https://www.linkedin.com/in/haron-al-kahtani-017881169","https://www.linkedin.com/in/samahmakki",
             "https://www.linkedin.com/in/doaa-saleh-519a44170/","https://www.linkedin.com/in/duaa-alqurashi-3bb12616a/",
-
-
-            "https://www.linkedin.com/in/mustafa-hag-musa-scada-eng/"
+            "https://www.linkedin.com/in/mustafa-hag-musa-scada-eng/",
+            //wrong link with reham likedin
+            ""
             };
 
     static Context mcontext;
@@ -56,7 +54,7 @@ public class XmlTeam extends ListActivity {
             {
                     R.drawable.image1,R.drawable.image3,R.drawable.image6,
                     R.drawable.image7,R.drawable.image8,R.drawable.image11,
-                    R.drawable.image19};
+                    R.drawable.image19,R.drawable.image22};
 
 
     private ListView lv;

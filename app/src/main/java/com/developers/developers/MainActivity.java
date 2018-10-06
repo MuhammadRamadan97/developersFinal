@@ -35,7 +35,8 @@ public class MainActivity extends ListActivity
             ,"Heba Farouk","Haron Al-kahtani","Samah Ahmad Makki","Doaa Saleh",
             "Youssef Essam Morsey","Rami Saad","Duaa Alqurashi","Ahmed Magdy Elsaeed",
             "Hamza Maouni","Tahany Mahmoud","Abdulwahab Abdulhadi","Yasser Mohamed",
-            "Mohamed Sobhy","Mohammad Sabri Issa Alamouri","Mustafa HagMusa","Mashael Alahemed", "Anan Al Jadani" };
+            "Mohamed Sobhy","Mohammad Sabri Issa Alamouri","Mustafa HagMusa","Mashael Alahemed", "Anan Al Jadani",
+           "Reham Mahmoud", "Rached Alaya", "Mahmoud El jawsagy" };
    //emailes
     private String[] listview_emails = {"shara.admo@gmail.com","seif.ealaan@gmail.com",
             "ibrahimbendjamaa@gmail.com ","amer.tamari@alsammy.com","mohammed.ramadan.glal@gmail.com","heba_hf@yahoo.com",
@@ -43,7 +44,8 @@ public class MainActivity extends ListActivity
             "rami.saad055@gmail.com","Duaaalqurashig@gmail.com","a.magdy20002001@gmail.com",
             "hamzamani0606@gmail.com","tahany.mahmoud06@gmail.com","abdulwahab.abdulhadi.95@gmail.com",
             "yasser2010_eg@yahoo.com","mohamed.sobhy.abdelmageed@outlook.com","mohammad.alamouri@gmail.com",
-           "abuelsafe@hotmail.com","programmer.500@hotmail.com","Anantech94@gmail.com"};
+           "abuelsafe@hotmail.com","programmer.500@hotmail.com","Anantech94@gmail.com",
+   "ph_a_r@yahoo.com", "rached.alaya@gmail.com", "mahmoudragab0809@gmail.com"};
    //linkedin accounts
     private String[] listview_linkedin = {"https://www.linkedin.com/in/mdeveloppeur","https://www.linkedin.com/in/saif-amer-851414125/",
             "https://www.linkedin.com/in/ibrahim-bendjamaa-5a3930168/","https://linkedin.com/in/AmerTamari",
@@ -58,7 +60,10 @@ public class MainActivity extends ListActivity
             "https://www.linkedin.com/in/yasser-hassaan-5b04a6b2","https://www.linkedin.com/in/mohamdsobhy/",
 
             "https://www.linkedin.com/in/mohammad-alamouri-694b4331","https://www.linkedin.com/in/mustafa-hag-musa-scada-eng/"
-    ,"https://www.linkedin.com/inmashael-al-/ahmad-1bb3a990","https://www.linkedin.com/in/anan-aljadani-091913165/"};
+    ,"https://www.linkedin.com/in/mashael-al-/ahmad-1bb3a990","https://www.linkedin.com/in/anan-aljadani-091913165/",
+   //wrong link with reham likedin
+    "",
+   "https://www.linkedin.com/in/rached-alaya-/876b9112","https://www.linkedin.com/in/mahmoud-el-jawsagy-8891a315b"};
 
     static Context mcontext;
 
@@ -68,7 +73,7 @@ public class MainActivity extends ListActivity
                     R.drawable.image1,R.drawable.image2,R.drawable.image3,R.drawable.amertamari,R.drawable.image4,R.drawable.image5,R.drawable.image6,
                     R.drawable.image7,R.drawable.image8,R.drawable.image9,R.drawable.image10,R.drawable.image11,R.drawable.image12,
                     R.drawable.image13,R.drawable.image14,R.drawable.image15,R.drawable.image16,R.drawable.image17,R.drawable.image18,
-                    R.drawable.image19,R.drawable.image20,R.drawable.image21};
+                    R.drawable.image19,R.drawable.image20,R.drawable.image21,R.drawable.image22, R.drawable.image23,R.drawable.image24};
 
 
 private ListView lv;

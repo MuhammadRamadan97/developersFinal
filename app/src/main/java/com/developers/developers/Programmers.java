@@ -28,15 +28,17 @@ public class Programmers extends ListActivity {
             ,"Heba Farouk",
             "Youssef Essam Morsey","Rami Saad","Ahmed Magdy Elsaeed",
             "Hamza Maouni","Tahany Mahmoud","Abdulwahab Abdulhadi","Yasser Mohamed",
-            "Mohamed Sobhy","Mohammad Sabri Issa Alamouri","Mashael Alahemed", "Anan Al Jadani" };
-    //emailes
+            "Mohamed Sobhy","Mohammad Sabri Issa Alamouri","Mashael Alahemed", "Anan Al Jadani","Rached Alaya",
+            "Mahmoud El jawsagy" };
+    //emails
     private String[] listview_emails = {"shara.admo@gmail.com","seif.ealaan@gmail.com",
             "amer.tamari@alsammy.com","mohammed.ramadan.glal@gmail.com","heba_hf@yahoo.com",
             "yosfessam2010@yahoo.com",
             "rami.saad055@gmail.com","a.magdy20002001@gmail.com",
             "hamzamani0606@gmail.com","tahany.mahmoud06@gmail.com","abdulwahab.abdulhadi.95@gmail.com",
             "yasser2010_eg@yahoo.com","mohamed.sobhy.abdelmageed@outlook.com","mohammad.alamouri@gmail.com",
-            "programmer.500@hotmail.com","Anantech94@gmail.com"};
+            "programmer.500@hotmail.com","Anantech94@gmail.com", "rached.alaya@gmail.com","mahmoudragab0809@gmail.com"
+    };
     //linkedin accounts
     private String[] listview_linkedin = {"https://www.linkedin.com/in/mdeveloppeur","https://www.linkedin.com/in/saif-amer-851414125/",
             "https://linkedin.com/in/AmerTamari",
@@ -50,7 +52,8 @@ public class Programmers extends ListActivity {
             "https://www.linkedin.com/in/yasser-hassaan-5b04a6b2","https://www.linkedin.com/in/mohamdsobhy/",
 
             "https://www.linkedin.com/in/mohammad-alamouri-694b4331"
-            ,"https://www.linkedin.com/in/mashael-al-/ahmad-1bb3a990","https://www.linkedin.com/in/anan-aljadani-091913165/"};
+            ,"https://www.linkedin.com/in/mashael-al-/ahmad-1bb3a990","https://www.linkedin.com/in/anan-aljadani-091913165/",
+            "https://www.linkedin.com/in/rached-alaya-/876b9112","https://www.linkedin.com/in/mahmoud-el-jawsagy-8891a315b"};
 
     static Context mcontext;
 
@@ -60,7 +63,7 @@ public class Programmers extends ListActivity {
                     R.drawable.image1,R.drawable.image2,R.drawable.amertamari,R.drawable.image4,R.drawable.image5,
                     R.drawable.image9,R.drawable.image10,R.drawable.image12,
                     R.drawable.image13,R.drawable.image14,R.drawable.image15,R.drawable.image16,R.drawable.image17,R.drawable.image18,
-                   R.drawable.image20,R.drawable.image21};
+                   R.drawable.image20,R.drawable.image21,R.drawable.image23,R.drawable.image24};
 
 
     private ListView listView;

@@ -15,7 +15,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -28,13 +27,13 @@ public class Designers extends ListActivity{
     private String[] listview_names =  {"Amer Tamari"
             ,"Heba Farouk","Duaa Alqurashi",
             "Hamza Maouni","Yasser Mohamed",
-           "Mustafa HagMusa"};
+           "Mustafa HagMusa","Reham Mahmoud"};
     //emailes
     private String[] listview_emails = {"amer.tamari@alsammy.com","heba_hf@yahoo.com",
-            "Duaaalqurashig@gmail.com","a.magdy20002001@gmail.com",
+            "Duaaalqurashig@gmail.com",
             "hamzamani0606@gmail.com",
             "yasser2010_eg@yahoo.com",
-            "abuelsafe@hotmail.com"};
+            "abuelsafe@hotmail.com","ph_a_r@yahoo.com"};
     //linkedin accounts
     private String[] listview_linkedin = {"https://linkedin.com/in/AmerTamari",
             "",//something wrong at heba farouk likedin
@@ -42,10 +41,12 @@ public class Designers extends ListActivity{
             "https://www.linkedin.com/in/duaa-alqurashi-3bb12616a/",
             "https://www.linkedin.com/in/hamza-maouni-1bb4a6127",
 
-            "https://www.linkedin.com/in/yasser-hassaan-5b04a6b2","https://www.linkedin.com/in/mohamdsobhy/",
+            "https://www.linkedin.com/in/yasser-hassaan-5b04a6b2",
 
-            "https://www.linkedin.com/in/mohammad-alamouri-694b4331","https://www.linkedin.com/in/mustafa-hag-musa-scada-eng/"
-            ,"https://www.linkedin.com/inmashael-al-/ahmad-1bb3a990","https://www.linkedin.com/in/anan-aljadani-091913165/"};
+            "https://www.linkedin.com/in/mustafa-hag-musa-scada-eng/"
+            ,
+            //wrong link with reham likedin
+            ""};
 
     static Context mcontext;
     TextView textView;
@@ -55,7 +56,7 @@ public class Designers extends ListActivity{
             {
                     R.drawable.amertamari,R.drawable.image5,R.drawable.image11,
                     R.drawable.image13,R.drawable.image16,
-                    R.drawable.image19};
+                    R.drawable.image19,R.drawable.image22};
 
 
     private ListView lv;
